@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "shop-stu",
+=======
+  "name": "suppermall",
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +11,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+<<<<<<< HEAD
     "better-scroll": "^1.15.2",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
@@ -19,4 +24,20 @@
     "@vue/cli-service": "^4.3.0",
     "vue-template-compiler": "^2.6.11"
   }
+=======
+    "axios": "^0.19.2",
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
 }

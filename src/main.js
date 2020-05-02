@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+<<<<<<< HEAD
 import router from './router'
 import store from './store'
 import VueLazyload from 'vue-lazyload'
@@ -24,4 +25,13 @@ new Vue({
   render: h => h(App),
   router,
   store,
+=======
+import router from './router/index'
+
+Vue.config.productionTip = false
+
+new Vue({
+  render: h => h(App),
+  router,
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
 }).$mount('#app')
