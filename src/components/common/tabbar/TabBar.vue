@@ -17,8 +17,12 @@ export default {
     position: fixed;
     left: 0;
     right: 0;
+<<<<<<< HEAD
     bottom: 0;
     z-index: 9;
+=======
+    bottom: 0
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
   }
   
 </style>

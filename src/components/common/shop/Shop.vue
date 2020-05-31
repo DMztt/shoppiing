@@ -129,7 +129,9 @@ export default {
       // console.log(saveY)
       this.$emit('shopOpsitons', saveY)
     },
-    
+  },
+  destoroyed() {
+    window.removeEventListener('scroll', this.shopScroll)
   }
   // methods: {
   //   titleClick(index) {

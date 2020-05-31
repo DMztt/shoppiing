@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="cart">
     <nav-bar class="nav-bar">
     <div class="center" slot="center">购物车 ( {{cartLength}} )</div>
@@ -61,5 +62,17 @@ export default {
 
   overflow: hidden;
 }
+=======
+  <h2>购物车</h2>
+</template>
+
+<script>
+export default {
+  name: 'Cart'
+}
+</script>
+
+<style>
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
 
 </style>

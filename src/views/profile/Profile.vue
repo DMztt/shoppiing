@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div id="profile">
     <!-- <nav-bar class="profile-nav">
       <div slot="center">
@@ -129,5 +130,17 @@ export default {
   .order-list, .more-list {
     margin-top: 12px;
   }
+=======
+  <h2>我的</h2>
+</template>
+
+<script>
+export default {
+  name: "Profile"
+}
+</script>
+
+<style>
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
 
 </style>

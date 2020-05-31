@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="goods-item" @click='goodsItemClick'>
     <img v-lazy="showimage" alt="" @load="imageLoad">
     <div class="goods-info">
@@ -7,17 +8,35 @@
       <span class="collect">{{goodsitem.cfav}}</span>
     </div>
   </div>
+=======
+  <div class="goods-item">
+    <img :src="goodsItem.show.img" alt="">
+    <div class="goods-info">
+      <p>{{goodsItem.title}}</p>
+      <span class="price">{{goodsItem.price}}}</span>
+      <span class="collect">{{goodsItem.cfav}}}</span>
+    </div>
+  </div>
+
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
 </template>
 
 <script>
 export default {
+<<<<<<< HEAD
   props: {
     goodsitem: {
+=======
+  name: 'GoodsListItem',
+  props: {
+    goodsItem: {
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
       type: Object,
       default() {
         return {}
       }
     }
+<<<<<<< HEAD
   },
   methods: {
     //监听图片加载完成
@@ -47,15 +66,25 @@ export default {
     showimage() {
       return this.goodsitem.image || this.goodsitem.show.img 
     }
+=======
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
   }
 }
 </script>
 
+<<<<<<< HEAD
 <style scoped >
 .goods-item {
     padding-bottom: 40px;
     position: relative;
     
+=======
+<style>
+.goods-item {
+    padding-bottom: 40px;
+    position: relative;
+
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
     width: 46%;
   }
 
@@ -99,5 +128,8 @@ export default {
     height: 14px;
     background: url("~assets/img/common/collect.svg") 0 0/14px 14px;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
 </style>

@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="category">
    <div class="nav-bar" >
      <div class="nav"> 我是顶部的商品展示区域</div>
@@ -72,4 +73,17 @@ export default {
   margin: 0 auto;
   border-radius: 12px;
 }
+=======
+  <h2>分类</h2>
+</template>
+
+<script>
+export default {
+  name: 'Category'
+}
+</script>
+
+<style>
+
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
 </style>

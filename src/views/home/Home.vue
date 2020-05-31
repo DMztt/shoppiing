@@ -1,11 +1,11 @@
 <template>
   <div id="home">
     <nav-bar class="home-nav"><div class="center" slot="center">购物街</div></nav-bar>
-    <tab-control :titles='titles' class="tab-control" @tabClick='tabClick' 
+    <tab-control :titles='titles' class="tab-control" @tabClick='tabClick'
                 ref="tabTopConOffSetTop"  v-show='tabConIsShow'
                 />
-    <scroll class='wrapper' 
-            ref="scroll" 
+    <scroll class='wrapper'
+            ref="scroll"
             :probe-type='3'
              @scroll="contentScroll"
              @pullingUp='pullUpClick'
@@ -88,7 +88,7 @@ export default {
   activated() {
     this.$refs.scroll.refresh()
     this.$refs.scroll.scrollTo(0, this.saveY,0)
-    
+
   },
   deactivated() {
     // console.log('deactivated')
@@ -127,7 +127,7 @@ export default {
         case 2:
           this.currentType = 'sell'
           break;
-      } 
+      }
       //让两个tabControl保持一致
       this.$refs.tabTopConOffSetTop.currentIndex = index
       this.$refs.tabConOffSetTop.currentIndex = index
@@ -136,7 +136,7 @@ export default {
       // console.log(this.$refs.scroll.scroll);
       // this.$refs.scroll.scroll.scrollTo(0, 0, 400);
       this.$refs.scroll.scrollTo(0, 0, 400);
-      
+
     },
     contentScroll(position) {
       // console.log(position);
@@ -182,10 +182,10 @@ export default {
  }
  .wrapper {
     overflow: hidden;
-    position: absolute; 
-    top: 44px; 
-    bottom: 49px; 
-    left: 0; 
+    position: absolute;
+    top: 44px;
+    bottom: 49px;
+    left: 0;
     right: 0;
  }
 

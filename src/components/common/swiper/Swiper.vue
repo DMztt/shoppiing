@@ -23,7 +23,11 @@
       },
       animDuration: {
 		    type: Number,
+<<<<<<< HEAD
         default: 500
+=======
+        default: 300
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
       },
       moveRatio: {
         type: Number,
@@ -50,7 +54,11 @@
 
         // 2.开启定时器
         this.startTimer();
+<<<<<<< HEAD
       }, 500)
+=======
+      }, 300)
+>>>>>>> f103f9bb3c216d8d88b4dd545be747e3e0e73a0c
     },
     methods: {
 		  /**
